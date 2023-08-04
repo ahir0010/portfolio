@@ -1,0 +1,20 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navigation1 {
+    background-color: rgb(14, 64, 103);
+}
+.home {
+    text-decoration: none;
+    color: white;
+}
+.aboutme {
+    text-decoration: none;
+    color: white;
+}
+.mywork {
+    text-decoration: none;
+    color: white;
+}
