@@ -1,8 +1,8 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
-.mycustomcolor{
+
+.mycustomcolor {
     background-color: rgb(25, 50, 63);
 }
