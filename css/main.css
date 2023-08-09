@@ -3,10 +3,57 @@
     padding: 0;
 }
 
+
+.navbar-nav .nav-item {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 .mycustomcolor {
-    background-color: rgb(25, 50, 63);
+    background-color: #2B424E;
 }
 .marginn{
     margin-bottom: 1px;
     margin-top: 1px;
 }
+.footer {
+    background-color: #2B424E;
+    color: white;
+    padding: 5px 0;
+  }
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+  }
+
+.footer-links li {
+    margin-bottom: 8px;
+  }
+
+.footer-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+.footer-icons li {
+    margin-right: 15px;
+  }
+
+.any-question {
+    margin-top: 10px;
+  }
+.iconcolor{
+    color: black;
+  }
+.textpaddingg{
+    margin-left: 50px
+  }
+  .custom-button{
+    background-color: #A77C7C;
+      border: 1px solid #a3a0a0;
+      color: white;
+      padding: 5px 15px;
+  }
