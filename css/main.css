@@ -111,6 +111,26 @@ a.nav-link {
     margin-bottom: 20px;
 }
 
+.customcontainer {
+    padding: 20px;
+}
+
+.mymainimage {
+    float: right;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.paragraphh {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.aboutmecontainer {
+    padding: 20px;
+}
+
 @media (min-width: 992px) {
     .navbar-nav .nav-item {
         margin-right: 5px;
