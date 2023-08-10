@@ -23,8 +23,8 @@ The major challenges were to make a website responisve, and image optimization f
 
 Resources which I used are mentioned below:
 
-- **Frameworks:** I used HTML, CSS plus bootstrap framework in CSS for my portfolio website.
+- **Frameworks:** I used HTML, CSS, and bootstrap framework in CSS for my portfolio website.
 - **Fonts:** I used default fonts.
 - **Icons:** I used Font Awesome for icons.
-- **Images:** I used the images which were clicked by myself.
+- **Images:** I used the images which were clicked by myself. The images which I used in mywork.html are taken from https://unsplash.com/ Unsplash pictures are copyright free.
 
