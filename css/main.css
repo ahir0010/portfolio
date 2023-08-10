@@ -87,10 +87,17 @@
     color: #fff;
     text-decoration: none;
  }
+ .form-control{
+    height: 20px;
+ }
+ .textarea{
+    height: 70px;
+ }
 @media (min-width: 992px) {
     .navbar-nav .nav-item {
         margin-right: 5px;
         margin-left: 5px;
+        font-size: 20px;
     }
     .marginn {
         margin-bottom: 50px;
