@@ -79,6 +79,9 @@
     padding: 10px;
     border-radius: 5px;
  }
+ .text-white{
+    text-decoration: none;
+ }
 
  .skip-link a {
     color: #fff;
