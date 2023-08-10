@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.navbar-nav{
+    padding-left: 0;
+    margin-left: 0;
+}
 
 .navbar-nav .nav-item {
     margin-right: 5px;
@@ -12,48 +16,131 @@
 .mycustomcolor {
     background-color: #2B424E;
 }
-.marginn{
-    margin-bottom: 1px;
-    margin-top: 1px;
+
+.marginn {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
+
 .footer {
     background-color: #2B424E;
     color: white;
     padding: 5px 0;
-  }
+}
 
 .footer-links {
     list-style: none;
     padding: 0;
-  }
+}
 
 .footer-links li {
     margin-bottom: 8px;
-  }
+}
 
 .footer-icons {
     list-style: none;
     display: flex;
     align-items: center;
     padding: 0;
-  }
+}
 
 .footer-icons li {
     margin-right: 15px;
-  }
+}
 
 .any-question {
-    margin-top: 10px;
-  }
-.iconcolor{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.iconcolor {
     color: black;
-  }
-.textpaddingg{
+}
+
+.textpaddingg {
     margin-left: 50px
-  }
-  .custom-button{
+}
+
+.custom-button {
     background-color: #A77C7C;
-      border: 1px solid #a3a0a0;
-      color: white;
-      padding: 5px 15px;
-  }
+    border: 2px solid #707070;
+    color: white;
+    padding: 1px 10px;
+}
+.skip-link {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+ }
+
+ .skip-link a {
+    color: #fff;
+    text-decoration: none;
+ }
+@media (min-width: 992px) {
+    .navbar-nav .nav-item {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .marginn {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .any-question {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .navbar-nav .nav-item {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 17px;
+    }
+    .marginn {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .any-question {
+        margin-top: 15px;
+        padding: 10px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-nav .nav-item {
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .marginn {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .any-question {
+        margin-top: 10px;
+        padding: 10px;
+    }
+    p {
+        font-size: 10px;
+    }
+}
+@media (max-width: 575px) {
+    .navbar-nav .nav-item {
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+}
