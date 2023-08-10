@@ -14,7 +14,7 @@
 
 <body>
     <header id="skiplinklandshere">
-        <nav class="navbar navbar-expand-xlg navbar-expand-lg navbar-expand-md navbar-expand-sm mycustomcolor"
+        <nav class="navbar navbar-expand-xlg navbar-expand-lg navbar-expand-md navbar-expand-sm mycustomcolor image_with_text"
             role="navigation">
             <div class="container">
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -54,9 +54,9 @@
     <main>
         <div class="container d-flex justify-content-center align-items-center marginn">
             <picture>
-                <source srcset="images/main-pic-150_x_100.jpeg 320w" media="(max-width: 479px)" />
-                <source srcset="images/main-pic-200_x_150.jpeg 480w" media="(max-width: 719px)" />
-                <source srcset="images/main-pic-300_x_200.jpeg 720w" media="(max-width: 959px)" />
+                <source sizes="" srcset="images/main-pic-150_x_100.jpeg 320w" media="(max-width: 479px)" />
+                <source sizes="" srcset="images/main-pic-200_x_150.jpeg 480w" media="(max-width: 719px)" />
+                <source sizes="" srcset="images/main-pic-300_x_200.jpeg 720w" media="(max-width: 959px)" />
                 <img src="images/main-pic-300_x_200.jpeg" alt="placeholder" class="image" />
             </picture>
             <h2 class="mx-3 font-weight-bold">Greetings everyone!</h2>
@@ -90,14 +90,14 @@
             </div>
         </div>
     </main>
-    <footer class="footer" role="navigation">
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 d-flex justify-content-center align-items-center">
                     <ul class="footer-links" role="menubar">
                         <li role="menuitem"><a href="#" class="text-white">Home</a></li>
-                        <li role="menuitem"><a href="#" class="text-white">MyWork</a></li>
-                        <li role="menuitem"><a href="#" class="text-white">AboutMe</a></li>
+                        <li role="menuitem"><a href="mywork.html" class="text-white">MyWork</a></li>
+                        <li role="menuitem"><a href="about.html" class="text-white">AboutMe</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 d-flex justify-content-center align-items-center">
@@ -113,7 +113,7 @@
                 </div>
                 <div class="col-md-6 any-question justify-content-center align-items-center">
                     <p>Any questions?</p>
-                    <form>
+                    <form role="form">
                         <div class="mb-3">
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                         </div>
